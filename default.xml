@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="origin"
+          fetch=".." />
+
+  <default revision="refs/heads/ColorOS_MTK_2.0"
+          remote="origin"
+          sync-j="4" />
+
+  <project path="manifest" name="ColorOSVN/local_manifests" />
+  <project path="build" name="ColorOSVN/build"/>
+  <project path="device" name="ColorOSVN/device"/>
+  <project path="smali" name="ColorOSVN/smali"/>
+  <project path="tools" name="ColorOSVN/tools"/>
+</manifest>
